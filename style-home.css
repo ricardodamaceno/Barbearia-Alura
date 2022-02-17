@@ -1,0 +1,217 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: #bbbbbb;
+	padding: 20px 0;
+}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+body{
+
+}
+
+#banner {
+	width: 100%;
+	margin: -3px 0;
+}
+
+.principal{
+	background: #fefefe;
+	width: 80%;
+	margin: 0 10%;
+
+}
+.principal p {
+	margin: 0 20px 20px;
+}
+
+.principal h2 {
+	padding-top: 2em;
+}
+.tituloCentralizado{
+	font-size: 30px;
+	font-weight: bold;
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+.utensilios {
+	margin-right: 20px;
+	width: 130px;
+	float: left;
+}
+
+
+.bba{
+	font-weight: bold;
+}
+
+p {
+	text-align: justify;
+}
+
+.missao{
+	font-style: italic;
+} 
+
+.ppa{
+	font-weight: bold;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapa iframe {
+	width: 80%;
+	margin: 0 10%;
+
+}
+
+.video {
+	width: 50%;
+	margin: 2em auto;
+	padding: 3em;
+
+}
+
+.beneficios {
+	background: #888888;
+}
+
+.itens {
+	font-style: italic;;
+}
+
+.itens:before {
+	content: "★";
+}
+
+.benicio li:first-child {
+	font-weight: bold;
+
+}
+
+.benicio {
+	padding: 3em;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+
+	margin-left: 55px;
+	font-size: 18px;
+}
+
+.beneficios li {
+	width: 100%;
+	margin: 1em 50%;
+}
+
+.barba{
+	margin:0 10%;
+	width: 560px;
+	opacity: 1;
+	transition: 1s;
+	box-shadow: 10px 10px 10px #000000;
+}
+
+.barba:hover {
+	opacity: 0.3;
+}
+
+footer {
+	margin-top: -33px;
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0;
+}
+
+.rodape {
+	color: #ffffff;
+	font-size: 15px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+@media screen and (max-width: 480px) {
+	.principal, .mapa, .beneficios, {
+		width: auto;
+	}
+
+	.caixa {
+		width: 100%
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+	.benicio, .barba, .video {
+		width: 80%;
+	}
+
+	.beneficios h3 {
+		padding: 2em;
+	}
+
+	.beneficios li{
+		display: block;
+		margin-left: -10%;
+		width: 100%;
+	}
+
+	.benicio {
+		margin: -20% 0 0;
+	}
+
+	.benicio li {
+		margin-left: 5%;
+	}
+
+	.video {
+		margin: -2%;
+	}
+}
